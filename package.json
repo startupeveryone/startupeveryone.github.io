@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.5",
+    "tailwindcss": "^2.0.3",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "build:dev": "postcss src/app.css -o docs/app.css && yarn copy",
+    "build": "NODE_ENV=production postcss src/app.css -o docs/app.css && yarn copy",
+    "copy": "cp -v src/index.html docs/index.html"
+  }
+}
