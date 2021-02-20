@@ -1,0 +1,7 @@
+baseURL = "https://startupeveryone.com/"
+languageCode = "en-us"
+title = "Startup Everyone"
+publishdir = "./docs"
+
+[build]
+writeStats = true

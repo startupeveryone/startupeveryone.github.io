@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-blue-700;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  body > div {
+    @apply bg-gray-50;
+  }
+
+  body > div > div {
+    @apply max-w-5xl mx-auto py-12 px-4 divide-y-2 divide-gray-200 sm:px-6 lg:py-16 lg:px-8;
+  }
+
+  header h1 {
+    @apply text-3xl font-extrabold text-gray-900 sm:text-4xl text-center;
+  }
+
+  main {
+    @apply mt-6;
+  }
+
+  .page-home dl {
+    @apply space-y-8 divide-y divide-gray-200;
+  }
+
+  .page-home dl > div {
+    @apply pt-6 md:grid md:grid-cols-12 md:gap-8;
+  }
+
+  .page-home dt {
+    @apply text-base font-medium text-gray-900 md:col-span-5;
+  }
+
+  .page-home dd {
+    @apply mt-2 md:mt-0 md:col-span-7 text-base text-gray-500;
+  }
+}

@@ -1,2 +1,5 @@
 node_modules/
+resources/_gen/
 .DS_Store
+hugo_stats.json
+

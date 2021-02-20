@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{- $content := .Content -}}
+{{- $content = $content | replaceRE "<dt>" "<div><dt>" -}}
+{{- $content = $content | replaceRE "</dd>" "</dd></div>" -}}
+{{- $content | safeHTML -}}
+{{ end }}
