@@ -53,8 +53,8 @@ How will you do this?
   still figuring out what help we need and how to organize volunteer efforts.
 
   If you'd like to join us in our mission, email us at
-  volunteering@startupeveryone.com and tell us about yourself and how you can
-  volunteer to help.
+  `volunteering@startupeveryone.com` and tell us about yourself and how you
+  can volunteer to help.
 
   We also have a [Discord server that you can
   join](https://discord.gg/8f6b6ydPPq).
