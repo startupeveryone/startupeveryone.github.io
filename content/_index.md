@@ -1,6 +1,10 @@
 ---
 title: Startup Everyone
 slug: home
+
+description: |
+  Startup Everyone is an effort to provide a universal basic income
+  (UBI) to everyone.
 ---
 
 What is Startup Everyone?

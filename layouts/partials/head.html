@@ -1,15 +1,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   {{ $title := print .Site.Title " | " .Title }}
   {{- if .IsHome }}{{ $title = .Site.Title }}{{ end -}}
   <title>{{ $title }}</title>
-  {{ $css := resources.Get "css/style.css" | postCSS }}
-  {{- if .Site.IsServer }}
+
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+
+  {{ $css := resources.Get "css/style.css" | postCSS -}}
+  {{- if .Site.IsServer -}}
     <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}">
-  {{ else }}
-    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+  {{- else -}}
+    {{- $css = $css | minify | fingerprint | resources.PostProcess -}}
     <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-  {{ end -}}
+  {{- end -}}
+
   <!-- <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script> -->
+
+  <meta>
 </head>
