@@ -65,7 +65,17 @@ How will you do this?
 
 Has anything like this been done before? Are there examples?
 
-: Here is an partial list of related efforts:
+: Here is an ongoing list of related efforts:
+
+  * [Cambridge to begin guaranteed income program for single-parent households](https://www.bostonglobe.com/2021/04/15/business/cambridge-begin-guaranteed-income-program-poor-families/)
+
+    Mayor Sumbul Siddiqui announced Thursday that the city, through a
+    public-private partnership, has raised $1.5 million for an initiative
+    that gives out $500 a month to 120 households headed by a lone caretaker,
+    such as a single mother. Last November the city of Chelsea launched a
+    similar program for about 2,000 low-income families in what is considered
+    the country’s biggest experiment of the guaranteed income idea. [April
+    15, 2021]
 
   * [Give kids aging out of the foster care system money to survive](https://theappeal.org/the-point/give-kids-aging-out-of-the-foster-care-system-money-to-survive/)
 
