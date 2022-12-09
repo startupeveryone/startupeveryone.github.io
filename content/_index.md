@@ -46,15 +46,19 @@ How will you do this?
   and distributed, so that everyone can verify that we are fulfilling our
   mission and that the money is going where we say it is.
 
-  I could really use some additional money to help make ends meet. What do I
-  need to do to participate? We're still figuring out the logistics of
-  signing people up and getting funds to everyone.
+  *"I could really use some additional money to help make ends meet. What
+  do I need to do to participate?"*
+
+  We're still figuring out the logistics of signing people up and
+  getting funds to everyone.
 
   When we're ready, we'll post an update and give instructions on how to sign
   up.
 
-  This all sounds amazing. I'd really like to help. How can I help? We're
-  still figuring out what help we need and how to organize volunteer efforts.
+  *"This all sounds amazing. I'd really like to help. How can I help?"*
+
+  We're still figuring out what help we need and how to organize
+  volunteer efforts.
 
   If you'd like to join us in our mission, email us at
   `volunteering@startupeveryone.com` and tell us about yourself and how you
