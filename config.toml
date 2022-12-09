@@ -5,3 +5,8 @@ publishdir = "./docs"
 
 [build]
 writeStats = true
+
+[security.exec]
+# https://github.com/gohugoio/hugo/issues/9811#issuecomment-1105842107
+# osEnv = ['.*']
+osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$', '(?i)^ASDF', '(?i)^HOME$']
